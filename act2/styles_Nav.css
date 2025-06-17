@@ -1,0 +1,25 @@
+@keyframes expand {
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1.1);
+    }
+  }
+  nav {
+  background: linear-gradient(251.33deg, #4378d9 0%, #292473 100%);
+  width: fit-content;
+  padding: 10px 15px 10px 15px;
+  border-radius: 0.9rem;
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-shadow: 0px 0px 41px #ffffff;
+    animation: expand .1s forwards;
+  }
+}

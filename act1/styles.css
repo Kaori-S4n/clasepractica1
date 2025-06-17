@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 84;
+  font-style: normal;
+}
+
+.content {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  font-family: Rubik;
+}
+
+.imgPic {
+  width: 400px;
+}
+.info{
+  text-align: center;
+  h1{
+    font-size: 50px;
+  }
+  p{
+    font-size: 30px;
+  }
+}
+
+.InfoContent {
+  background-color: #656077;
+  width: 450px;
+  padding-left: 30px;
+}
+.SubTitle {
+  display: flex;
+  gap: 15px;
+}
+
+.infoContent2 {
+  p{
+    color: #656077;
+  }
+  h2{
+    color: #868686;
+  }
+}
+
+.icons{
+  width: 65px;
+}
+
+.parent{
+  display: flex;
+  flex-direction: row;
+}
+.parentContent{
+  margin-left: 15px;
+  margin-top: -9px;
+  div{
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+  }
+}
+.parent2{
+  display: flex;
+  gap: 14px;
+}
+.parentContent2{
+  display: flex;
+  flex-direction: column;
+}
+.parentContent .parentContent2{
+  font-size: 1px;
+}
+.div1{
+  margin-left: 25px;
+}
